@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Menu.master" AutoEventWireup="true" CodeFile="footer.master.cs" Inherits="footer" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MenuMasterHead" Runat="Server">
+    <asp:ContentPlaceHolder ID="contentPlaceFooterHead" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <style>
+        .input-subscribers::before {content:none;}
+        .btn-primary {position: absolute;}
+        .btn-primary::before {}
+
+
+    </style>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MenuMasterContent" Runat="Server">
+    <asp:ContentPlaceHolder ID="contentPlaceFooterBody" runat="server">
+
+    </asp:ContentPlaceHolder>
+        <footer class="section footer noover">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="widget clearfix">
+                                <h3 class="widget-title">Subscribe Our Newsletter</h3>
+                                <div class="newsletter-widget">
+                                    <p>
+                                        You can opt out of our newsletters at any time.<br>
+                                        See our <a href="#">privacy policy</a>.
+                                    </p>
+                                    <div class="form-inline" role="search">
+                                        <div class="form-1">
+                                            <input type="text" id="txtRegister" runat="server" class="input-subscribers form-control" placeholder="Enter email here..">
+                                            <button type="button" id="btnRegister" runat="server" UseSubmitBehavior="False" onServerClick="btnRegister_Click" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
+                                            <p id="lblErrorSubscriptors" runat="server" class="error-msg" style="color: red;"></p>
+                                        </div>
+                                    </div>
+                                    <img src="images/logo.png" alt="" class="dark-logo-bottom img-responsive">
+                                </div>
+                                <!-- end newsletter -->
+                            </div>
+                            <!-- end widget -->
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-lg-3 col-md-3">
+                            <div class="widget clearfix">
+                                <h3 class="widget-title">Become a member of Decowall inc</h3>
+                                <p>By subscribing the newletter getting aware of latest product and news</p>
+                            </div>
+                            <!-- end widget -->
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-lg-3 col-md-3">
+                            <div class="widget clearfix">
+                                <h3 class="widget-title">Popular Tags</h3>
+                                <div class="tags-widget">
+                                    <ul class="list-inline">
+                                        <li><a href="#">moulding</a></li>
+                                        <li><a href="#">crown moulding</a></li>
+                                        <li><a href="#">baseboard moulding</a></li>
+                                        <li><a href="#">bulding materials</a></li>
+                                        <li><a href="#">marbel sheets</a></li>
+                                        <li><a href="#">pvc baseborad</a></li>
+                                        <li><a href="#">pvc crown</a></li>
+                                        <li><a href="#">baseboard installation</a></li>
+                                        <li><a href="#">crown installation</a></li>
+                                        <li><a href="#">panel wall</a></li>
+                                    </ul>
+                                </div>
+                                <!-- end list-widget -->
+                            </div>
+                            <!-- end widget -->
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-lg-2 col-md-2">
+                            <div class="widget clearfix">
+                                <h3 class="widget-title">Support</h3>
+                                <div class="list-widget">
+                                    <ul>
+                                        <li><a href="#">decowall</a></li>
+                                        <li><a href="#">contact us</a></li>
+                                        <li><a href="#">products</a></li>
+                                        <li><a href="#">products' prices</a></li>
+                                        <li><a href="#">bulding news</a></li>
+                                        <li><a href="#">installation</a></li>
+                                    </ul>
+                                </div>
+                                <!-- end list-widget -->
+                            </div>
+                            <!-- end widget -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </footer>
+            <!-- end footer -->
+
+            <div class="copyrights">
+                <div class="container">
+                    <div class="clearfix">
+                        <div class="pull-right">
+                            <div class="footer-links">
+                                <ul class="list-inline">
+                                    <li>Designed & Developed : <a href="#">Decoton Co. (info@decotonco.ca)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end copy -->
+        </div>
+        <!-- end wrapper -->
+
+        
+        <!-- VIDEO BG PLUGINS -->
+<%--        <script src="js/videobg.js"></script>--%>
+</asp:Content>
+

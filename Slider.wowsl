@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>true</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>false</Controls>
+            <FontSize>24</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>Slider</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>parallax,fade,stack</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>true</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/absent/</ImageTemplate>
+            <ImageTemplateName>Absent</ImageTemplateName>
+            <ImageWidth>480</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/i8net/Desktop/slider/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/i8net/Desktop/slider</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>2</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#ffffff</TemplateColor>
+            <TemplateFont>Slabo 27px</TemplateFont>
+            <TemplateName>absent</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/GitRep/www.soulrebelcannabis.com/Image/avery-meeker-DW7HeAd8o1g-unsplash.jpg</url>
+                <title>avery-meeker-DW7HeAd8o1g-unsplash</title>
+                <filesize>7781672</filesize>
+            </Image>
+            <Image>
+                <url>C:/GitRep/www.soulrebelcannabis.com/Image/avery-meeker-muuZhItgQoE-unsplash.jpg</url>
+                <title>avery-meeker-muuZhItgQoE-unsplash</title>
+                <filesize>5311935</filesize>
+            </Image>
+            <Image>
+                <url>C:/GitRep/www.soulrebelcannabis.com/Image/crystalweed-cannabis-N_hs88GmLO8-unsplash.jpg</url>
+                <title>crystalweed-cannabis-N_hs88GmLO8-unsplash</title>
+                <filesize>8094852</filesize>
+            </Image>
+            <Image>
+                <url>C:/GitRep/www.soulrebelcannabis.com/Image/esteban-lopez-cQtAjvP6hUQ-unsplash.jpg</url>
+                <title>esteban-lopez-cQtAjvP6hUQ-unsplash</title>
+                <filesize>1098634</filesize>
+            </Image>
+            <Image>
+                <url>C:/GitRep/www.soulrebelcannabis.com/Image/jeff-w-X29BDflJyxM-unsplash.jpg</url>
+                <title>jeff-w-X29BDflJyxM-unsplash</title>
+                <filesize>2424419</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
